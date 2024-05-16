@@ -1,7 +1,8 @@
 # cal_houses
 This repo contains data cleaning and exploratory data analysis using Jupyter Notebook and Python.
-<div style="text-align: justify">
+
 This is my first ever project including some major data cleaning and exploratory data analysis (EDA). I found the data set from an online Udemy course. The initial purpose of this data set was to be an instructor's assistant for discussing about the data types. In addition, the instructor used excel during the discussion. Therefore, what is presenting at this project consists of my genuine thoughts for almost 100%.
+
 The project includes 3 files:
 1) The main jupyter file.
 2) The original and untouched excel data file. 
