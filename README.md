@@ -13,3 +13,4 @@ What I gained from this project?
 2) Consolidated why EDA is so useful. To be more specific, there wasn't additional context about the data set. I started almost from zero. I did some important mistakes during the process. EDA assisted me to see some patterns which could not be random, could not be correct, meaning that I had understood the columns context in a wrong way. For example, "Age at time of purchase" is not about buyer's age but only for building's age. EDA revealed it.
 3) Consolidated why Data Cleaning in conjunction with EDA play a major role in data analysis. Finding my mistakes with EDA, I needed to turn back to data cleaning to rechange my cells and my way of thinking and this process happened a lot of times.
 4) I exported a clean and known CSV file which can be effectively and quickly be used for ML techniques in the future.
+</div>
