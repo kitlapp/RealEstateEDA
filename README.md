@@ -1,16 +1,28 @@
-# cal_houses
-This repo contains Data Cleaning and Exploratory Data Analysis using Jupyter Notebook and Python.
+# Real Estate Transactions Exploratory Data Analysis
+This repository contains Data Cleaning and Exploratory Data Analysis (EDA) on real estate transaction data using Jupyter Notebook. This project offers an opportunity to showcase my approach to understanding the dataset, as there was no data documentation available. I had to derive all insights solely through the EDA process.
 
-This is my first project which involves significant Data Cleaning and Exploratory Data Analysis (EDA). I obtained the dataset from an online Udemy course. The initial intention of the course's instructor for this dataset was being a teaching tool for discussing about data types. In addition, the instructor used excel during this specific section of the course. Therefore, what is presenting in this project represents almost entirely my own analysis and thoughts.
+*****************************************************************************************************************************************************************************************************************************************************
+NOTE: I greatly acknowledge the Udemy course 'The Data Science Course: Complete Data Science Bootcamp 2024' (URL: https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/?couponCode=ST21MT121624) for sharing the dataset. If there are any restrictions regarding sharing this dataset through my GitHub, please contact me via Udemy at userID 'Kimon Ioannis Lappas' and I will immediately delete both the original and cleaned datasets.
+*****************************************************************************************************************************************************************************************************************************************************
 
-The project includes 3 files:
-1) The main Jupyter Notebook file.
-2) The original, untouched Excel data file. 
-3) The exported Excel data file after performing data cleaning. This third data file is ideal for potential future use, such as applying Machine Learning techniques or further EDA.
+The initial intent of the course instructor was to use this dataset as a teaching tool for discussing data types. Therefore, the idea for this project, including the EDA process, is entirely my own.
 
-What have I gained from this project?
-1) Opportunity to showcase some skills and a genuine way of personal thinking about the dataset.
-2) Solidified why EDA is so useful. To be more specific, there wasn't additional context about the data set. I started almost from scratch. During the analysis, I made some significant mistakes. EDA helped me identify patterns that seemed illogical, meaning that I had misinterpreted the context of certain columns. For example, "Age at time of purchase" does not refer to buyer's age, rather than the building's age. EDA revealed this error.
-3) Solidified the vital role Data Cleaning plays in conjunction with EDA. As I identified errors through EDA, I needed to revisit the data cleaning step to correct the cells and adjust my thinking. This process occurred frequently.
-4) I have exported a clean and well-understood CSV file which can be efficiently used for future Machine Learning tasks.
+## FILES INCLUDED:
+1. Data Files, the original one (.xlsx) and the cleaned one (.csv) X 2
+2. The core file, named 'main' (.ipynb) X 1
+   <br>-->  I clear the cell outputs in Jupyter to maintain a clean code appearance. Please follow the instructions below to see how my code is executed and also view the generated .png files.
+4. Visualizations X 6 (.png)
+5. The README File
 
+--> 10 Files in Total <--
+
+## HOW TO SET UP THE ENVIRONMENT:
+1. Download the project as a zip file or clone the repository to your local machine.
+2. Open Anaconda Prompt and type:
+   <br>--> conda create --name 'YourEnvName' -c conda-forge jupyter=1.0.0 pandas=2.2.1 numpy=1.26.4 matplotlib=3.8.4 seaborn=0.12.2
+3. Activate the newly-created environment.
+4. Launch Jupyter via Anaconda Prompt.
+5. Open the project's Jupyter named 'main'.
+6. Enjoy!
+
+--> Thanks for your time! Feel free to connect with me on LinkedIn: linkedin.com/in/kimon-ioannis-lappas!!! <--
